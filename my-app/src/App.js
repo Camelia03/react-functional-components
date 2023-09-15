@@ -1,15 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import ConditionalRenderingClass from './components/ConditionalRenderingClass';
-import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
-
+import MethodAsPropsParent from './components/MethodAsPropsParent';
 
 function App() {
   return (
     <div className="App">
-      <ConditionalRenderingClass />
-      <ConditionalRenderingFunctional connected={false} />
-
+      <MethodsAsPropsParent />
     </div>
   );
 }
