@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import LifeCyclesCDM from './components/LifeCycleCDM';
+import LifeCyclesCDU from './components/LifeCycleCDU';
 
 function App() {
   return (
     <div className="App">
-      <LifeCyclesCDM />
+      <LifeCyclesCDU />
     </div>
   );
 }
