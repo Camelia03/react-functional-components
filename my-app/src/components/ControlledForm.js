@@ -5,9 +5,9 @@ export class ControlledForm extends Component {
         super(props)
     
         this.state = {
-             name: '',
-             category: 'website',
-             comments: '',
+            name: '',
+            category: 'website',
+            comments: '',
         }
     }
     handleNameChange = (event) => {
@@ -46,26 +46,26 @@ export class ControlledForm extends Component {
                     </div>
                     <div>
                         <label htmlFor="id-category">Query category:</label>
-                            <select
-                                id="id-category"
-                                name="category"
-                                value={this.state.category}
-                                onChange={this.handleCategoryChange}
-                            >
-                                <option value="website">Website issue</option>
-                                <option value="order">Order issue</option>
-                                <option value="general">General inquiry</option>
+                        <select
+                            id="id-category"
+                            name="category"
+                            value={this.state.category}
+                            onChange={this.handleCategoryChange}
+                        >
+                            <option value="website">Website issue</option>
+                            <option value="order">Order issue</option>
+                            <option value="general">General inquiry</option>
 
-                            </select>
-                    </div>  
+                        </select>
+                    </div>
                     <div>
                         <label htmlFor="id-comments">Comments:</label>
-                            <textarea
-                                id="id-comments"
-                                name="comments"
-                                value={this.state.comments}
-                                onChange={this.handleCategoryChange}
-                            />
+                        <textarea
+                            id="id-comments"
+                            name="comments"
+                            value={this.state.comments}
+                            onChange={this.handleCommentsChange}
+                        />
                     </div>
                     <input type="submit" value="Submit" />
                 </form>
