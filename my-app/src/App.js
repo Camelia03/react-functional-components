@@ -1,11 +1,11 @@
+import { HttpStatusCode } from "axios";
 import "./App.css";
-import ClassCounter from "./components/ClassCounter";
-import UseEffectCounter from "./components/UseEffectCounter";
+import HTTPRequests from "./components/HTTPRequests";
 
 function App() {
   return <div className="App">
       {/* <ClassCounter /> */}
-      <UseEffectCounter />
+      <HTTPRequests />
   </div>;
 }
 
